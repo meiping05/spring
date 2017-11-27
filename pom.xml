@@ -96,6 +96,16 @@
       <name>Mybatis GitHub Pages</name>
       <url>git:ssh://git@github.com/mybatis/spring.git?gh-pages#</url>
     </site>
+    <repository>
+      <id>releases_local</id>
+      <name>Releases</name>
+      <url>http://127.0.0.1:9999/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots_local</id>
+      <name>Snapshots</name>
+      <url>http://127.0.0.1:9999/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
 
   <properties>
@@ -398,5 +408,4 @@
       </testResource>
     </testResources>
   </build>
-
 </project>
